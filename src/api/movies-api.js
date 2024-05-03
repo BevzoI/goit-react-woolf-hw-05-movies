@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://api.themoviedb.org/3/authentication';
-axios.defaults.params = { api_key: '209d500b4ce5da22054e85cc200e2b8c0' };
+axios.defaults.baseURL = 'https://api.themoviedb.org/3/';
+axios.defaults.params = { api_key: '8aba4e3419a44727b7eb66f35fce4fa2' };
 
 const getMoviesInTrend = async () => {
   try {

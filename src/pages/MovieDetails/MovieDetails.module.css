@@ -33,6 +33,6 @@
   
   .goBackBtn:focus,
   .goBackBtn:hover {
-    fill: turquoise;
+    fill: rgb(191, 246, 50);
     transform: scale(0.9);
   }  
